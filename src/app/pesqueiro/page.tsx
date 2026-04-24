@@ -3,6 +3,7 @@ import { pesqueiro } from "@/data/pesqueiro";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import EspeciesSection from "@/components/EspeciesSection";
+import GaleriaLightbox from "@/components/GaleriaLightbox";
 
 export default function PesqueiroPage() {
   return (
@@ -101,6 +102,19 @@ export default function PesqueiroPage() {
             <p className="text-white/60 text-sm">Hóspedes da pousada têm acesso estendido à pesca noturna.</p>
           </section>
         </div>
+
+        {/* Galeria */}
+        <section>
+          <h2 className="text-2xl font-extrabold text-texto mb-2">Galeria</h2>
+          <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
+          <GaleriaLightbox fotos={[
+            { src: "", alt: "Pesqueiro Perez" },
+            { src: "", alt: "Pesqueiro Perez" },
+            { src: "", alt: "Pesqueiro Perez" },
+            { src: "", alt: "Pesqueiro Perez" },
+            { src: "", alt: "Pesqueiro Perez" },
+          ]} />
+        </section>
 
         {/* CTA */}
         <section className="text-center bg-cinza-bg rounded-2xl p-10 border border-cinza-borda">
