@@ -10,7 +10,6 @@ export const pesqueiro = {
   ],
   taxasObs: [
     "Caso queira levar algum peixe, cobramos o valor do quilo à parte.",
-    "Desconto de 50% na taxa de pesca ao pescador que levar acima de 5kg de peixe.",
   ],
   regras: [
     { permitido: true,  texto: "Máximo de três varas por pessoa" },
