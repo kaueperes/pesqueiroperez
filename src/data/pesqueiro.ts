@@ -1,7 +1,7 @@
 export const pesqueiro = {
   descricao:
     "Venha pescar em um dos pesqueiros mais completos da região de Cesário Lange. Lagos bem cuidados, peixe garantido e estrutura completa para você e sua família passarem um dia inesquecível.",
-  especies: ["Pacu", "Tambacu", "Tambaqui", "Patinga", "Catfish", "Carpa", "Piauçu", "Curimbatá", "Dourado", "Pintado", "Traíra", "Matrinxã"],
+  especies: ["Pacu", "Tambacu", "Tambaqui", "Patinga", "Catfish", "Carpa", "Piauçu", "Curimbatá", "Dourado", "Pintado", "Traíra", "Matrinxã", "Tilápia"],
   taxas: [
     { perfil: "Homem", valor: 30, obs: null },
     { perfil: "Homem aposentado", valor: 15, obs: null },
