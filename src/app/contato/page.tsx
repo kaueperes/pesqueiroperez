@@ -1,11 +1,11 @@
-import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import PageHero from "@/components/PageHero";
 
 export default function ContatoPage() {
   return (
     <>
       <PageHero
-        icon={MessageCircle}
+        icon={Phone}
         titulo="Contato"
         descricao="Estamos em Cesário Lange, São Paulo. Fácil acesso pela Rodovia Castelo Branco. Venha nos visitar!"
         imagem="/hero_como chegar.jpg"
