@@ -10,7 +10,7 @@ export default function PousadaPage() {
       <PageHero
         icon={Home}
         titulo="Pousada"
-        descricao="Chalés aconchegantes e confortáveis, piscina exclusiva em formato de peixe e café da manhã incluso. Uma experiência completa de descanso para toda a família."
+        descricao={"Chalés aconchegantes e confortáveis, piscina exclusiva\nem formato de peixe e café da manhã incluso.\nUma experiência completa de descanso para toda a família."}
         imagem="/hero_pousada.jpg"
       />
 
