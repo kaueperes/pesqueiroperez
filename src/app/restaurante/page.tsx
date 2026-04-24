@@ -33,7 +33,7 @@ export default function RestaurantePage() {
       <PageHero
         icon={UtensilsCrossed}
         titulo="Restaurante"
-        descricao="Pratos frescos preparados com carinho. Peixe direto do lago, porções generosas e sabores que fazem você voltar sempre."
+        descricao={"Pratos frescos preparados com carinho.\nPeixe direto do lago, porções generosas\ne sabores que fazem você voltar sempre."}
         imagem="/hero_restaurante.jpg"
       />
 
