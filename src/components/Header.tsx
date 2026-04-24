@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header className="bg-white sticky top-0 z-50 shadow-sm border-b border-cinza-borda">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="shrink-0">
+        <Link href="/" className="shrink-0" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           <Image
             src="/pesqueiro_pousada.png"
             alt="Pesqueiro e Pousada Perez"
@@ -39,6 +39,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className={`px-3 py-2 rounded text-sm font-medium transition-colors ${
                 pathname === link.href
                   ? "text-azul-medio bg-azul-pale"
