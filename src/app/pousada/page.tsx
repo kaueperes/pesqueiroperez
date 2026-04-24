@@ -2,6 +2,7 @@ import { Home, Check, Clock, CreditCard, Waves, Trees, Fish, UtensilsCrossed, Pa
 import { politicaReserva, tarifas, tarifaCriancas, incluso } from "@/data/pousada";
 import ReservaForm from "@/components/ReservaForm";
 import PageHero from "@/components/PageHero";
+import GaleriaLightbox from "@/components/GaleriaLightbox";
 
 export default function PousadaPage() {
   return (
@@ -140,32 +141,14 @@ export default function PousadaPage() {
         <section className="mb-16">
           <h2 className="text-2xl font-extrabold text-texto mb-2">Conheça a estrutura</h2>
           <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[
-              { src: "", alt: "Chalé" },
-              { src: "", alt: "Área externa" },
-              { src: "", alt: "Café da manhã" },
-              { src: "", alt: "Lago" },
-              { src: "", alt: "Acomodações" },
-              { src: "", alt: "Natureza" },
-            ].map((foto, i) => (
-              <div
-                key={i}
-                className="aspect-video rounded-2xl overflow-hidden border border-cinza-borda bg-cinza-bg flex flex-col items-center justify-center gap-2 text-texto-suave"
-              >
-                {foto.src ? (
-                  <img src={foto.src} alt={foto.alt} className="w-full h-full object-cover" />
-                ) : (
-                  <>
-                    <svg className="w-8 h-8 text-cinza-borda" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5M3 3h18M3.75 3v13.5A2.25 2.25 0 006 18.75h12A2.25 2.25 0 0020.25 16.5V3" />
-                    </svg>
-                    <span className="text-xs font-medium">Em breve</span>
-                  </>
-                )}
-              </div>
-            ))}
-          </div>
+          <GaleriaLightbox fotos={[
+            { src: "", alt: "Chalé" },
+            { src: "", alt: "Área externa" },
+            { src: "", alt: "Café da manhã" },
+            { src: "", alt: "Lago" },
+            { src: "", alt: "Acomodações" },
+            { src: "", alt: "Natureza" },
+          ]} />
         </section>
 
         {/* Experiência — bloco emocional */}
