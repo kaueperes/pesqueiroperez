@@ -75,7 +75,7 @@ export default function EspeciesSection({ especies }: { especies: Especie[] }) {
                 <Scale className="w-3.5 h-3.5" /> {selecionada.peso}
               </span>
               <span className={`text-sm px-3 py-1 rounded-full border font-semibold ${dificuldadeStyle[selecionada.dificuldade]}`}>
-                {selecionada.dificuldade}
+                Dificuldade: {selecionada.dificuldade}
               </span>
             </div>
             <p className="text-texto-suave text-sm leading-relaxed">{selecionada.descricao}</p>
