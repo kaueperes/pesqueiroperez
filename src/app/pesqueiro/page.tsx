@@ -2,6 +2,7 @@ import { Fish, Clock, Check, X } from "lucide-react";
 import { pesqueiro } from "@/data/pesqueiro";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
+import EspeciesSection from "@/components/EspeciesSection";
 
 export default function PesqueiroPage() {
   return (
@@ -18,18 +19,9 @@ export default function PesqueiroPage() {
         {/* Espécies */}
         <section>
           <h2 className="text-2xl font-extrabold text-texto mb-2">Espécies disponíveis</h2>
-          <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
-          <div className="flex flex-wrap gap-3">
-            {pesqueiro.especies.map((e) => (
-              <span
-                key={e}
-                className="bg-azul-pale border border-azul-borda text-azul-navy px-5 py-2 rounded-full font-semibold flex items-center gap-2"
-              >
-                <Fish className="w-4 h-4 text-azul-medio" />
-                {e}
-              </span>
-            ))}
-          </div>
+          <div className="w-10 h-1 bg-azul-medio mb-2 rounded-full" />
+          <p className="text-sm text-texto-suave mb-8">Clique em uma espécie para saber mais.</p>
+          <EspeciesSection especies={pesqueiro.especies} />
         </section>
 
         {/* Taxas */}
