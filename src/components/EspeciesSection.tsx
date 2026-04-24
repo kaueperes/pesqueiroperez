@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Fish, Scale, ChevronDown } from "lucide-react";
+import { Fish, Scale, X } from "lucide-react";
 
 interface Especie {
   nome: string;
@@ -67,7 +67,7 @@ export default function EspeciesSection({ especies }: { especies: Especie[] }) {
                 className="text-texto-suave hover:text-texto transition-colors shrink-0"
                 aria-label="Fechar"
               >
-                <ChevronDown className="w-5 h-5" />
+                <X className="w-5 h-5" />
               </button>
             </div>
             <div className="flex flex-wrap gap-2 mb-4">
