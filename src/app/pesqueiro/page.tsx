@@ -102,8 +102,11 @@ export default function PesqueiroPage() {
               <Clock className="text-azul-brilho w-6 h-6" />
               <h2 className="text-xl font-bold">Horário de Funcionamento</h2>
             </div>
-            <p className="text-white/80 text-lg">{pesqueiro.horario}</p>
-            <p className="text-white/60 text-sm mt-2">Hóspedes da pousada têm acesso estendido à pesca noturna.</p>
+            <p className="text-white/50 text-xs uppercase tracking-wide mb-1">Pesqueiro & Restaurante</p>
+            <p className="text-white/80 text-lg mb-4">{pesqueiro.horario}</p>
+            <p className="text-white/50 text-xs uppercase tracking-wide mb-1">Hospedagem</p>
+            <p className="text-white/80 text-lg">Todos os dias</p>
+            <p className="text-white/60 text-sm mt-4">Hóspedes da pousada têm acesso estendido à pesca noturna.</p>
           </section>
         </div>
 
