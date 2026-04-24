@@ -23,7 +23,7 @@ export default function PageHero({ icon: Icon, titulo, descricao, imagem }: Page
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">{titulo}</h1>
           <div className="w-12 h-1 bg-azul-brilho mx-auto mb-5 rounded-full" />
-          <p className="text-white/80 text-lg leading-relaxed">{descricao}</p>
+          <p className="text-white/80 text-lg leading-relaxed whitespace-pre-line">{descricao}</p>
         </div>
       </section>
     );

@@ -7,7 +7,7 @@ export default function ContatoPage() {
       <PageHero
         icon={Phone}
         titulo="Contato"
-        descricao="Estamos em Cesário Lange, São Paulo. Fácil acesso pela Rodovia Castelo Branco. Venha nos visitar!"
+        descricao={"Estamos em Cesário Lange, São Paulo.\nFácil acesso pela Rodovia Castelo Branco.\nVenha nos visitar!"}
         imagem="/hero_como chegar.jpg"
       />
 
