@@ -142,12 +142,16 @@ export default function PousadaPage() {
           <h2 className="text-2xl font-extrabold text-texto mb-2">Conheça a estrutura</h2>
           <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
           <GaleriaLightbox fotos={[
-            { src: "", alt: "Chalé" },
-            { src: "", alt: "Área externa" },
-            { src: "", alt: "Café da manhã" },
-            { src: "", alt: "Lago" },
-            { src: "", alt: "Acomodações" },
-            { src: "", alt: "Natureza" },
+            { src: "", alt: "Foto 1" },
+            { src: "", alt: "Foto 2" },
+            { src: "", alt: "Foto 3" },
+            { src: "", alt: "Foto 4" },
+            { src: "", alt: "Foto 5" },
+            { src: "", alt: "Foto 6" },
+            { src: "", alt: "Foto 7" },
+            { src: "", alt: "Foto 8" },
+            { src: "", alt: "Foto 9" },
+            { src: "", alt: "Foto 10" },
           ]} />
         </section>
 
