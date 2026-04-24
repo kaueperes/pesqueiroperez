@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --azul-navy: #1e3a8a;
+  --azul-medio: #2563eb;
+  --azul-claro: #3b82f6;
+  --azul-brilho: #60a5fa;
+  --azul-pale: #eff6ff;
+  --azul-borda: #bfdbfe;
+  --branco: #ffffff;
+  --cinza-bg: #f8fafc;
+  --cinza-borda: #e2e8f0;
+  --texto: #0f172a;
+  --texto-suave: #475569;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-azul-navy: var(--azul-navy);
+  --color-azul-medio: var(--azul-medio);
+  --color-azul-claro: var(--azul-claro);
+  --color-azul-brilho: var(--azul-brilho);
+  --color-azul-pale: var(--azul-pale);
+  --color-azul-borda: var(--azul-borda);
+  --color-branco: var(--branco);
+  --color-cinza-bg: var(--cinza-bg);
+  --color-cinza-borda: var(--cinza-borda);
+  --color-texto: var(--texto);
+  --color-texto-suave: var(--texto-suave);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--branco);
+  color: var(--texto);
+  font-family: var(--font-inter), system-ui, sans-serif;
 }
+
+h1, h2, h3 {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+@keyframes wave-flow {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.wave-1 { animation: wave-flow 10s linear infinite; }
+.wave-2 { animation: wave-flow 14s linear infinite reverse; }
+.wave-3 { animation: wave-flow 18s linear infinite; }
+.wave-sunset-1 { animation: wave-flow 16s linear infinite reverse; }
+.wave-sunset-2 { animation: wave-flow 22s linear infinite; }
+.wave-sunset-3 { animation: wave-flow 28s linear infinite reverse; }
