@@ -30,11 +30,11 @@ export default function PesqueiroPage() {
           <h2 className="text-2xl font-extrabold text-texto mb-2">Conheça a estrutura</h2>
           <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
           <GaleriaLightbox fotos={[
-            { src: "", alt: "Pesqueiro Perez" },
-            { src: "", alt: "Pesqueiro Perez" },
-            { src: "", alt: "Pesqueiro Perez" },
-            { src: "", alt: "Pesqueiro Perez" },
-            { src: "", alt: "Pesqueiro Perez" },
+            { src: "/pesqueiro1.jpg", alt: "Pesqueiro Perez" },
+            { src: "/pesqueiro2.jpg", alt: "Pesqueiro Perez" },
+            { src: "/pesqueiro3.jpg", alt: "Pesqueiro Perez" },
+            { src: "/pesqueiro4.jpg", alt: "Pesqueiro Perez" },
+            { src: "/pesqueiro5.jpg", alt: "Pesqueiro Perez" },
           ]} />
         </section>
 
