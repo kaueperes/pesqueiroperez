@@ -1,6 +1,6 @@
 export const pesqueiro = {
   descricao:
-    "Venha pescar em um dos pesqueiros mais completos da região de Cesário Lange. Lagos bem cuidados, peixe garantido e estrutura completa para você e sua família passarem um dia inesquecível.",
+    "Venha pescar em um dos pesqueiros mais completos da região de Cesário Lange.\nLagos bem cuidados, peixe garantido e estrutura completa\npara você e sua família passarem um dia inesquecível.",
   especies: [
     {
       nome: "Carpa",
