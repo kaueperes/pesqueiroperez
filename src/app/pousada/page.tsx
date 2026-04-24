@@ -48,6 +48,24 @@ export default function PousadaPage() {
 
       <div className="max-w-5xl mx-auto px-4 py-16">
 
+        {/* Galeria */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-extrabold text-texto mb-2">Conheça a estrutura</h2>
+          <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
+          <GaleriaLightbox fotos={[
+            { src: "/pousada1.jpg", alt: "Pousada Perez" },
+            { src: "/pousada2.jpg", alt: "Pousada Perez" },
+            { src: "/pousada3.jpg", alt: "Pousada Perez" },
+            { src: "/pousada4.jpg", alt: "Pousada Perez" },
+            { src: "/pousada5.jpg", alt: "Pousada Perez" },
+            { src: "/pousada6.jpg", alt: "Pousada Perez" },
+            { src: "/pousada7.jpg", alt: "Pousada Perez" },
+            { src: "/pousada8.jpg", alt: "Pousada Perez" },
+            { src: "/pousada9.jpg", alt: "Pousada Perez" },
+            { src: "/pousada10.jpg", alt: "Pousada Perez" },
+          ]} />
+        </section>
+
         {/* Tarifas */}
         <section className="mb-16">
           <h2 className="text-2xl font-extrabold text-texto mb-2">Valor da Diária</h2>
@@ -135,24 +153,6 @@ export default function PousadaPage() {
           <div className="w-full md:w-60 h-52 rounded-2xl overflow-hidden shrink-0">
             <img src="/piscina.jpg" alt="Piscina em formato de peixe" className="w-full h-full object-cover" />
           </div>
-        </section>
-
-        {/* Galeria */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-extrabold text-texto mb-2">Conheça a estrutura</h2>
-          <div className="w-10 h-1 bg-azul-medio mb-8 rounded-full" />
-          <GaleriaLightbox fotos={[
-            { src: "/pousada1.jpg", alt: "Pousada Perez" },
-            { src: "/pousada2.jpg", alt: "Pousada Perez" },
-            { src: "/pousada3.jpg", alt: "Pousada Perez" },
-            { src: "/pousada4.jpg", alt: "Pousada Perez" },
-            { src: "/pousada5.jpg", alt: "Pousada Perez" },
-            { src: "/pousada6.jpg", alt: "Pousada Perez" },
-            { src: "/pousada7.jpg", alt: "Pousada Perez" },
-            { src: "/pousada8.jpg", alt: "Pousada Perez" },
-            { src: "/pousada9.jpg", alt: "Pousada Perez" },
-            { src: "/pousada10.jpg", alt: "Pousada Perez" },
-          ]} />
         </section>
 
         {/* Experiência — bloco emocional */}
