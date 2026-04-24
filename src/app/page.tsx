@@ -36,7 +36,11 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 flex flex-wrap justify-center gap-6 text-sm text-texto-suave">
           <span className="flex items-center gap-2">
             <Clock className="w-4 h-4 text-azul-medio" />
-            Terça a Domingo: 8h às 18h
+            Pesqueiro & Restaurante: Ter–Dom, 8h às 18h
+          </span>
+          <span className="flex items-center gap-2">
+            <Clock className="w-4 h-4 text-azul-medio" />
+            Hospedagem: todos os dias
           </span>
           <span className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-azul-medio" />

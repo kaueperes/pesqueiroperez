@@ -86,9 +86,13 @@ export default function Footer() {
                 pesqueiroperez@hotmail.com
               </a>
             </li>
-            <li className="flex gap-2 items-center">
-              <Clock className="w-4 h-4 text-azul-brilho shrink-0" />
-              <span>Terça a Domingo: 8h às 18h</span>
+            <li className="flex gap-2 items-start">
+              <Clock className="w-4 h-4 text-azul-brilho shrink-0 mt-0.5" />
+              <span>
+                Pesqueiro & Restaurante: Ter–Dom, 8h às 18h
+                <br />
+                Hospedagem: todos os dias
+              </span>
             </li>
           </ul>
         </div>
